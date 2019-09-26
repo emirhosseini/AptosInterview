@@ -65,20 +65,20 @@ namespace AptosInterview
             currentPortfolio.AddStockToPortfolio("CYBR", cybrPrice, 150);
             currentPortfolio.AddStockToPortfolio("ABB", abbPrice, 900);
 
-            var desiredAppleStockTotal = currentPortfolio.TotalPortfolioValue * (decimal)0.22;
-            var desiredGoogleStockTotal = currentPortfolio.TotalPortfolioValue * (decimal)0.38;
-            var desiredGfnStockTotal = currentPortfolio.TotalPortfolioValue * (decimal)0.25;
-            var desiredAcadStockTotal = currentPortfolio.TotalPortfolioValue * (decimal)0.15;
+            var desiredAppleStockTotal = (int) currentPortfolio.TotalPortfolioValue * (decimal)0.22;
+            var desiredGoogleStockTotal = (int) currentPortfolio.TotalPortfolioValue * (decimal)0.38;
+            var desiredGfnStockTotal = (int) currentPortfolio.TotalPortfolioValue * (decimal)0.25;
+            var desiredAcadStockTotal = (int) currentPortfolio.TotalPortfolioValue * (decimal)0.15;
 
-            var numberOfSharesToBuyApple = desiredAppleStockTotal / applePrice;
-            var numberOfSharesToBuyGoogle = desiredGoogleStockTotal / googlePrice;
-            var numberOfSharesToBuyGfn = desiredGfnStockTotal / gfnPrice;
-            var numberOfSharesToBuyAcad = desiredAcadStockTotal / acadPrice;
+            var numberOfSharesToBuyApple = (int)(desiredAppleStockTotal / applePrice);
+            var numberOfSharesToBuyGoogle = (int)(desiredGoogleStockTotal / googlePrice);
+            var numberOfSharesToBuyGfn = (int)(desiredGfnStockTotal / gfnPrice);
+            var numberOfSharesToBuyAcad = (int)(desiredAcadStockTotal / acadPrice);
 
-            var newAllocationApple = (desiredAppleStockTotal / currentPortfolio.TotalPortfolioValue) * 100;
-            var newAllocationGoogle = (desiredGoogleStockTotal / currentPortfolio.TotalPortfolioValue) * 100;
-            var newAllocationGfn = (desiredGfnStockTotal / currentPortfolio.TotalPortfolioValue) * 100;
-            var newAllocationAcad = (desiredAcadStockTotal / currentPortfolio.TotalPortfolioValue) * 100;
+            var newAllocationApple = (int)((desiredAppleStockTotal / currentPortfolio.TotalPortfolioValue) * 100);
+            var newAllocationGoogle = (int)((desiredGoogleStockTotal / currentPortfolio.TotalPortfolioValue) * 100);
+            var newAllocationGfn = (int)((desiredGfnStockTotal / currentPortfolio.TotalPortfolioValue) * 100);
+            var newAllocationAcad = (int)((desiredAcadStockTotal / currentPortfolio.TotalPortfolioValue) * 100);
 
             string output = $@"
             Today's Prices:
