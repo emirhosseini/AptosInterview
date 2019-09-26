@@ -1,0 +1,11 @@
+C:\Users\emirhosseini\source\repos\AptosInterview\bin\Debug\netcoreapp2.2\AptosInterview.deps.json
+C:\Users\emirhosseini\source\repos\AptosInterview\bin\Debug\netcoreapp2.2\AptosInterview.runtimeconfig.json
+C:\Users\emirhosseini\source\repos\AptosInterview\bin\Debug\netcoreapp2.2\AptosInterview.runtimeconfig.dev.json
+C:\Users\emirhosseini\source\repos\AptosInterview\bin\Debug\netcoreapp2.2\AptosInterview.dll
+C:\Users\emirhosseini\source\repos\AptosInterview\bin\Debug\netcoreapp2.2\AptosInterview.pdb
+C:\Users\emirhosseini\source\repos\AptosInterview\obj\Debug\netcoreapp2.2\AptosInterview.csprojAssemblyReference.cache
+C:\Users\emirhosseini\source\repos\AptosInterview\obj\Debug\netcoreapp2.2\AptosInterview.csproj.CoreCompileInputs.cache
+C:\Users\emirhosseini\source\repos\AptosInterview\obj\Debug\netcoreapp2.2\AptosInterview.AssemblyInfoInputs.cache
+C:\Users\emirhosseini\source\repos\AptosInterview\obj\Debug\netcoreapp2.2\AptosInterview.AssemblyInfo.cs
+C:\Users\emirhosseini\source\repos\AptosInterview\obj\Debug\netcoreapp2.2\AptosInterview.dll
+C:\Users\emirhosseini\source\repos\AptosInterview\obj\Debug\netcoreapp2.2\AptosInterview.pdb
